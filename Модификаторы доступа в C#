@@ -1,1 +1,91 @@
+#include <iostream> Untitled-1
 
+#include<iostream> 1
+
+#include<cmath> 2
+
+ #define PI 3.1415
+
+ using namespace std;
+
+S class parall
+
+ {
+
+ public:
+
+
+
+double a,b,c;
+
+
+
+parall();
+
+
+
+double volume();
+
+
+double area();
+
+};
+
+ void main()
+
+ {
+
+ parall x;
+
+
+
+setlocale(LC_ALL, "Russian");
+
+
+
+cout<<"Объем: "<<x.volume()<<endl;
+
+
+
+cout<<"Площадь: "<<x.area()<<endl;
+
+ system("pause");
+
+
+}
+
+ parall::parall()
+
+
+
+
+
+cout<<"Введите стороны: "<<endl;
+
+
+
+cin>>a>>b>>८;
+
+ }
+
+
+
+double parall::volume()
+
+
+
+
+
+return a*b*c;
+
+
+
+}
+
+
+
+double parall::area()
+
+
+
+return 2*(a*b+b*c+a*c);
