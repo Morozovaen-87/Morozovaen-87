@@ -1,1 +1,13 @@
-
+uses crt;
+const n=10;
+var i,cen:integer; a:array[1..n] of integer;
+begin
+  clrscr;
+  write('Введите цену 1 кг конфет: '); readln(cen);
+  for i:=1 to n do
+    begin
+      a[i]:=i*cen;
+      writeln('Стоимость ',i, ' кг - ',a[i]);
+    end;
+  readln
+end.
