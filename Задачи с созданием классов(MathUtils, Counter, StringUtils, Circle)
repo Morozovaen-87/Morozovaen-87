@@ -1,0 +1,43 @@
+Class имя класса () Untitled-1
+
+Class имя класса (
+
+ namespace ClassTest{
+
+class Vehicle
+{
+}
+}
+
+ static void Main(string[] args) (
+
+Vehicle car new Vehicle();
+
+ Console.WriteLine(car.ToString());
+
+ // Выведет "ClassTest.Vehicle"
+
+}
+ public void PressHorn(){
+
+Console.WriteLine("Toot toot!");}
+
+static void Main(string[] args){
+
+Vehicle car new Vehicle(); car.PressHorn();
+
+ // Вывод "Toot toot!"
+
+ }
+
+private void MonitoroilTemperature() {
+
+ // Внутренний код контроля температуры масла...;)
+
+ static void Main(string[] args) [
+ Vehicle car = new Vehicle();
+
+ car.MonitoroilTemperature();
+
+ }
+
