@@ -1,1 +1,13 @@
-
+potrebl = list(map(int, input().split()))
+norma = int(input())
+norm = float(input())
+nenorm = float(input())
+p_list = []
+s_list = []
+r_list = []
+for i in potrebl:
+    if i <= norma:
+        nors = i * norm
+        p_list.append(nors)
+    if i >= norma:
+        norn = i - norma
