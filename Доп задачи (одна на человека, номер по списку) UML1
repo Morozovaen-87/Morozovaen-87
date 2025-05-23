@@ -1,29 +1,19 @@
-using System;
-
- namespace HelloApp
-
- {
-
-
-class Program
-{
-
-static void Main(string[] args)
-{
-Person tom = new Employee();
-
-Console.ReadKey();
-}
-}
-internal class Person
-
-{
-
-}
-public class Employee Person
-
-{
-
-}
-}
-
+potrebl = list(map(int, input().split()))
+norma = int(input())
+norm = float(input())
+nenorm = float(input())
+p_list = []
+s_list = []
+r_list = []
+for i in potrebl:
+    if i <= norma:
+        nors = i * norm
+        p_list.append(nors)
+    if i >= norma:
+        norn = i - norma
+        s_list.append(norn)
+        r_list.append(i)
+        sees = ((sum(r_list) -sum(s_list))*norm)+(sum(s_list)*nenorm)
+ 
+lal = sees+sum(p_list)
+print("Сумма: %6d кВт ч, стоимость %7.2f руб" % (sum(potrebl), lal))
