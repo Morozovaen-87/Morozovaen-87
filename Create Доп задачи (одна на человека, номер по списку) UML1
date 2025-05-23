@@ -1,0 +1,7 @@
+x := P;
+i := 0;
+repeat
+inc(i);
+x := (x-T)*(1.0-q/100.0)
+until P/x>10.0;
+writeln(i);
